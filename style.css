@@ -91,3 +91,25 @@ body {
     flex-shrink: 0;
     margin-left: auto;
 }
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-two h2 {
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    size: 150px 150px;
+}
